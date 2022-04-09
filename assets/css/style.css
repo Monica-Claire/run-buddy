@@ -14,7 +14,6 @@ header {
     background: #39a6b2;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 header h1 {
@@ -31,6 +30,10 @@ header a {
 
 header nav {
     margin: 7px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
 }
 
 header nav ul li {
